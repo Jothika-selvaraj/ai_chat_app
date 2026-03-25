@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://ai-chat-app-1-am66.onrender.com/api/ask-ai"
 });
 
 export const askAI = (prompt) => {
