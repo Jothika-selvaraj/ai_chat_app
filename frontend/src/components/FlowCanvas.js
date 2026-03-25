@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactFlow, { Background } from "reactflow";
 import "reactflow/dist/style.css";
 
 import InputNode from "./InputNode";
